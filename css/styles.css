@@ -146,6 +146,7 @@ img {
 /* === HERO === */
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-container {
@@ -153,9 +154,9 @@ img {
   flex-direction: column;
   align-items: center;
   gap: 48px;
-  padding: 188px 0;
   flex-wrap: wrap;
   width: 496px;
+  padding: 0;
 }
 
 .hero-title {
