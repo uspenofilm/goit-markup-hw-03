@@ -153,7 +153,7 @@ img {
   flex-direction: column;
   align-items: center;
   gap: 48px;
-  padding: 68px 0;
+  padding: 188px 0;
   flex-wrap: wrap;
   width: 496px;
 }
@@ -165,6 +165,7 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
 }
 
 .hero-btn {
@@ -180,6 +181,7 @@ img {
   border: 0;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  min-width: 169px;
 }
 
 .hero-btn:hover {
@@ -238,15 +240,20 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 32px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   overflow: hidden;
   max-width: calc((100% - 72px)/4);
 }
 
+.team-member-content {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0;
+}
+
 .team-member-img {
-  margin-bottom: 32px;
   max-width: 100%;
 }
 
@@ -260,8 +267,12 @@ img {
 
 .team-member-name {
   margin-bottom: 8px;
+  text-align: center;
 }
 
+.team-member-position {
+  text-align: center;
+}
 /* ============== */
 
 /* === PORTFOLIO === */
@@ -301,7 +312,7 @@ img {
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
-  padding: 100px 156px;
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -312,7 +323,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
